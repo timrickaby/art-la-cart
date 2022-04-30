@@ -61,7 +61,6 @@ final class ___ALCView implements ___IALCView
 		ob_start();
 			$view_path = '/' . $this->dispatcher->page()->path() . $this->dispatcher->page()->file_name();
 			if (file_exists($view_path) === true) {
-				var_dump($view_path);
 				include($view_path);
 				
 			} else {
