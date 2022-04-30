@@ -1,0 +1,1 @@
+Parts of a custom PHP CMS I built back in 2010/2011 as the web back end of a photography business I was running. The CMS supported client accounts, event guest accounts, shopping basket, widgets and pages. The repository currently contains the core API code and I'm slowing pulling together the remainder of the system, eventually including the admin interface and the front end.

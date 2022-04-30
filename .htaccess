@@ -1,0 +1,35 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	Options +FollowSymLinks
+	IndexIgnore */*
+	DirectoryIndex index.php alc.php
+	SetEnv TZ Europe/London
+
+	<Files .htaccess>
+		order allow,deny
+		deny from all
+	</Files>
+		
+	<Files php.ini>
+	 	order allow,deny
+	 	deny from all
+	 	satisfy all
+	</Files>
+
+	<FilesMatch ".(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$">  
+		Order Allow,Deny  
+		Deny from all  
+	</FilesMatch>
+
+	# BEGIN ART LA CART	#
+	RewriteBase /
+	RewriteRule ^alc\.php$ - [L]
+	RewriteCond %{ENV:REDIRECT_STATUS} 200
+	RewriteRule .* - [L]
+	RewriteCond %{REQUEST_URI} !\.(css|gif|ico|jpg|js|png|pdf|swf|txt)$
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-l
+	RewriteRule . /alc.php [L]
+	# END ART LA CART #
+</IfModule>
