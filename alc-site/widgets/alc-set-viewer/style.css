@@ -1,0 +1,72 @@
+#context { float: right; width: 186px; padding-left: 10px; padding-top: 47px }
+#context-inner { float: left; width: 186px; padding: 0px }
+#context-inner li { padding: 1px; border: 1px solid #ffffff }
+#context p { font-size: 10px; text-decoration:none; text-transform: none; text-align: right; padding-right: 14px }
+
+.feature { margin-left: 10px; margin-bottom: 20px; height: 255px; width: 960px; position: relative; padding: 20px; }
+.feature img { top: 0px;  left: 0px; position: absolute; margin-left: 20px; margin-top: 25px; }
+
+.tags-collection { background: url('images/tag.jpg') no-repeat 0px 50%; padding: 0px; color: #3b3b3b; font-size: 1.1em; line-height: 1.6em; float:left; font-weight: normal; text-indent: 26px; margin-bottom: 10px; clear: both !important }
+.star-collection { background: url('images/star.jpg') no-repeat 0px 50%; padding: 0px; color: #3b3b3b; font-size: 0.9em; line-height: 1.6em; float:left; font-weight: bold; text-indent: 26px; }
+.eye-collection { background: url('images/eye.jpg') no-repeat 0px 50%; padding: 0px; color: #3b3b3b; font-size: 0.9em; line-height: 1.6em; float:left; font-weight: bold; text-indent: 26px; margin-left: 12px; }
+.sale-collection { background: url('images/money.jpg') no-repeat 0px 50%; padding: 0px; color: #3b3b3b; font-size: 0.9em; line-height: 1.6em; float:left; font-weight: bold; text-indent: 26px; margin-left: 12px; }
+
+.details p a { color: #eee; }
+.details { padding: 30px; position: absolute; left: 5px; width: 220px; height: 110px; -webkit-transition: all 0.55s ease-in; opacity: 0; top: 5px; background-color: #000; }
+.details p { color: #ccc; clear: both; font: 11px/17px Helvetica, Arial, Helvetica, Geneva, sans-serif; }
+.details h2 { padding-bottom: 12px; color: #eee; text-transform: uppercase; font-weight: bold; font-size: 9px; float: left; width: 280px; letter-spacing: 2px; padding-top: 5px; }
+
+.portfolio-item { margin-bottom: 12px; height: 240px }
+.portfolio-item-last { margin-bottom: 12px; height: 240px }
+.portfolio-item img { background: #ffffff; border: 1px solid #ffffff; opacity: 0; }
+.portfolio-item b { color: #666; font-weight: bold; text-transform: uppercase; }
+.portfolio-item i { color: #666; font-weight: bold; font-style: normal }  
+.portfolio-item-palette { float: left; margin-right: 8px; height: 230px; width: 12px; padding-top: 2px }
+.portfolio-item-left { float: left; height: auto; width: auto; margin-right: 16px; }
+.portfolio-item-left img { opacity: 0 }
+.portfolio-item-middle { float: left; height: auto; width: 180px; }
+.portfolio-item-right { float: left; width: 300px; }
+
+.end { margin-right: 0px; }
+.collection_thumb { width: 260px; position: relative; float: left; margin-bottom: 6px; margin-right: 12px;}
+.collection_thumb_image { background:#FFF; width: 48px; position: relative; float: left; display: inline-block; margin-left: 0px; padding: 2px; }
+.collection_thumb_image_border { background:#FFF; width: 48px; position: relative; float: left; display: inline-block; margin-left: 0px; padding: 1px; border: solid 1px #2f2f2f; }
+.set_thumb { width: 48px; position: relative; float: left; margin-bottom: 6px; margin-right: 12px;}
+.set_thumb_image { background:#FFF; width: 48px; position: relative; float: left; display: inline-block; margin-left: 0px; padding: 2px; }
+.set_thumb_image_border { background:#FFF; width: 48px; position: relative; float: left; display: inline-block; margin-left: 0px; padding: 1px; border: solid 1px #2f2f2f; }
+
+.item { position: relative; float: left; display: inline-block; margin-bottom: 0px; }
+.item_image { border: none; background-image: url('images/pattern.jpg'); background-repeat: repeat; position: relative; float: left; display: inline-block; margin-left: 0px; margin-bottom: 8px; padding: 0px; }
+.item_details { position: relative; float: left; display: inline-block; margin-bottom: 12px; }
+.item_details a { text-decoration: none; }
+.item_details p.title { color: #2f2f2f; font-size: 14px; float: left; margin-bottom: 4px; clear: both }
+.item_details p { clear: both; font-size: 10px; text-transform: none; letter-spacing: 0px; padding-right: 10px; padding-left: 0px; padding-top: 0px; }
+.item_collection_details { width: 500px; position: relative; float: left; display: inline-block; margin-top: 0px; padding-top: 0px }
+.item_collection_details p.title { color:#666; clear: both; font-size: 9px; text-transform: none; letter-spacing: 0px; padding: 0 0 2px 0; }
+.item_collection_details p { color:#666; clear: both; font-size: 9px; text-transform: none; letter-spacing: 0px; padding: 0 10px 0 0; }
+.item_navigation { position: relative; float: left; display: inline-block; margin-bottom: 8px; text-align: left; padding-right: 6px }
+.nav_purchase { padding-top: 4px; cursor: pointer }
+.nav_view { margin-left: 12px; }
+.nav_thumbs { margin-left: 6px; margin-right:4px; }
+.nav_previous { margin-left: 6px; }
+.nav_next { margin-left: 6px; }
+.nav_information { margin-left: 16px; }
+
+#thumblist_row { width: 680px; overflow: hidden; float: left; display: block; margin-bottom: 12px; padding: 0; }
+#thumblist { width: 320px; position: relative; float: left; display: inline-block; margin-right: 12px; border: 0 }
+#thumblist_small { width: 64px; height: 64px; position: relative; float: left; display: inline-block; margin: 0 16px 16px 0; }
+
+.thumb { width: 48px; position: relative; float: left; margin-bottom: 6px; margin-left: 12px;}
+.thumb_image img { background:#FFF; width: 48px; position: relative; float: left; display: inline-block; margin-left: 0px; padding: 2px; }
+.thumb_image img:hover { background: #ffffff; border: 1px solid #F2F2F2; -moz-box-shadow: 1px 1px 5px #999; -webkit-box-shadow: 1px 1px 5px #999; box-shadow: 1px 1px 5px #999; padding: 1px }
+.thumb_image_border img { background:#FFF; width: 48px; position: relative; float: left; display: inline-block; margin-left: 0px; padding: 1px; border: solid 1px #F2F2F2; }
+
+.price-item { border-bottom: dotted 1px #D9D9D9; padding-bottom: 15px; margin-top: 15px; height: 70px; width: 100% }
+.price-item h1 { color: #666; font-size: 14px; padding: 0px }
+.price-item h2 { color: #666; font-size: 12px; padding: 0px }
+.price-item p { color: #666; font-size: 11px; padding: 3px 0 0 0 }
+.price-itemleft { float: left; border: 1px solid #ffffff; padding: 2px; height: 64px; width: 64px; }
+.price-itemright { float: left; width: 280px; padding-left: 10px; }
+.price-button { float: right; width: 140px; text-align: left; padding-top: 28px }
+
+.fixedSidebar { position: fixed; top: 0; }​

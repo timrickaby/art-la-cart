@@ -1,16 +1,13 @@
 alc-core/alc-config.php
 alc-core/admin/
-alc-core/components/
-alc-core/dispatchers/
 alc-core/gateways/
-alc-core/libraries/
-alc-core/pages/
 alc-core/relays/
-alc-core/resources/
-alc-core/services/
-alc-core/system/
-alc-site/
-alc-media/
+alc-site/views
+alc-media/images/sets_local
+alc-site/assets
+alc-site/widgets/alc-set-viewer/images
+alc-site/widgets/alc-set-viewer/scroller
+alc-site/widgets/alc-set-viewer/widget.php
 
 # Compiled source #
 ###################
